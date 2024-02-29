@@ -1,0 +1,1819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FressRTOS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FressRTOS.elf">
+				<Option output="D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/FressRTOS.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Inc"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/portable/GCC/ARM_CM3"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Config"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/example"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Fonts"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/GUI_DEV"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/image"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/LCD"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl_app"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/porting"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/inc"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/plugins/file"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/plugins/flash"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/include"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/rtu"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/port"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/protocols"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/protocols/app_UART"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 FressRTOS.elf"/>
+					<CompileFile command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FressRTOS.elf/fast">
+				<Option output="D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/FressRTOS.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Inc"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/portable/GCC/ARM_CM3"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Config"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/example"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Fonts"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/GUI_DEV"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/image"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/LCD"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl_app"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/porting"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/inc"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/plugins/file"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/plugins/flash"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/include"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/rtu"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/port"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/protocols"/>
+					<Add directory="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/protocols/app_UART"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="f:\gcc-arm-none-eabi-10.3-win32\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 FressRTOS.elf/fast"/>
+					<CompileFile command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MINGW/bin/mingw32-make.exe -f &quot;D:/Clion_Pro/FreeRTOSTest/FressRTOS/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Config/DEV_Config.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Config/DEV_Config.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Config/LCD_Debug.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Config/SPI_software.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Config/SPI_software.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Fonts/font12.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Fonts/font12CN.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Fonts/font16.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Fonts/font20.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Fonts/font24.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Fonts/font24CN.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Fonts/font8.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/Fonts/fonts.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/GUI_DEV/GUI_Paint.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/GUI_DEV/GUI_Paint.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/LCD/LCD_2inch4.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/LCD/LCD_2inch4.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/example/LCD_2inch4_test.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/example/LCD_Test.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/image/image.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/BSP/LCD/image/image.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/README.md">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/inc/elog.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/inc/elog_cfg.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/port/elog_port.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/src/elog.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/src/elog_async.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/src/elog_buf.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/EasyLogger/easylogger/src/elog_utils.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/functions/mbfunccoils.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/functions/mbfuncdiag.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/functions/mbfuncdisc.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/functions/mbfuncholding.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/functions/mbfuncinput.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/functions/mbfuncother.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/functions/mbutils.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/include/mb.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/include/mbconfig.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/include/mbframe.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/include/mbfunc.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/include/mbport.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/include/mbproto.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/include/mbutils.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/mb.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/rtu/mbcrc.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/rtu/mbcrc.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/rtu/mbrtu.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/modbus/rtu/mbrtu.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/port/port.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/port/portevent.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/port/portserial.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/FreeModbus/port/porttimer.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/protocols/README.md">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/protocols/app_UART/user_protocol_Uart.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/protocols/app_UART/user_protocol_Uart.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/protocols/user_protocol.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Components/protocols/user_protocol.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Inc/dma.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Inc/gpio.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Inc/main.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Inc/spi.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Inc/stm32f1xx_it.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Inc/tim.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Inc/usart.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Src/dma.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Src/gpio.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Src/main.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Src/spi.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Src/stm32f1xx_hal_timebase_tim.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Src/stm32f1xx_it.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Src/syscalls.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Src/system_stm32f1xx.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Src/tim.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Core/Src/usart.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/LICENCE.txt">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/README.md">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/lv_conf.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/lv_conf_template.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/lvgl.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_core.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_disp.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_disp.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_event.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_event.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_group.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_group.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_indev.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_indev.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_indev_scroll.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_indev_scroll.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_class.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_class.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_draw.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_draw.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_pos.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_pos.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_scroll.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_scroll.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_style.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_style.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_style_gen.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_style_gen.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_tree.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_obj_tree.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_refr.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_refr.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_theme.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/core/lv_theme.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/arm2d/lv_draw_arm2d.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/arm2d/lv_gpu_arm2d.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/arm2d/lv_gpu_arm2d.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_arc.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_arc.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_img.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_img.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_label.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_label.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_layer.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_layer.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_line.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_line.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_mask.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_mask.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_rect.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_rect.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_transform.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_transform.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_triangle.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_draw_triangle.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_img_buf.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_img_buf.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_img_cache.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_img_cache.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_img_decoder.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/lv_img_decoder.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/lv_draw_nxp.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/pxp/lv_draw_nxp_pxp.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/pxp/lv_draw_pxp.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_draw_nxp_vglite.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_draw_vglite.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_vglite_buf.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/nxp/vglite/lv_vglite_utils.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/README.md">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_arc.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_bg.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_composite.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_composite.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_img.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_img.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_label.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_layer.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_layer.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_line.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_mask.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_mask.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_priv.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_rect.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_rect.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_utils.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sdl/lv_draw_sdl_utils.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/stm32_dma2d/lv_draw_stm32_dma2d.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_arc.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_blend.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_blend.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_dither.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_dither.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_gradient.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_gradient.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_img.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_layer.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_letter.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_line.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_polygon.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_rect.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/sw/lv_draw_sw_transform.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/swm341_dma2d/lv_draw_swm341_dma2d.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/README.md">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/layouts/flex/lv_flex.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/layouts/flex/lv_flex.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/layouts/grid/lv_grid.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/layouts/grid/lv_grid.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/layouts/lv_layouts.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/bmp/lv_bmp.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/bmp/lv_bmp.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/freetype/arial.ttf">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/freetype/lv_freetype.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/freetype/lv_freetype.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/fsdrv/lv_fsdrv.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/gif/gifdec.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/gif/gifdec.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/gif/lv_gif.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/gif/lv_gif.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/lv_libs.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/png/lodepng.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/png/lodepng.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/png/lv_png.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/png/lv_png.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/qrcode/lv_qrcode.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/qrcode/lv_qrcode.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/qrcode/qrcodegen.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/qrcode/qrcodegen.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/rlottie/lv_rlottie.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/rlottie/lv_rlottie.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/sjpg/lv_sjpg.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/sjpg/lv_sjpg.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/sjpg/tjpgd.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/sjpg/tjpgd.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/libs/sjpg/tjpgdcnf.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/lv_extra.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/lv_extra.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/lv_extra.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/fragment/README.md">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/fragment/lv_fragment.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/fragment/lv_fragment.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/fragment/lv_fragment_manager.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/gridnav/lv_gridnav.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/gridnav/lv_gridnav.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/ime/lv_ime_pinyin.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/ime/lv_ime_pinyin.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/imgfont/lv_imgfont.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/imgfont/lv_imgfont.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/lv_others.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/monkey/lv_monkey.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/monkey/lv_monkey.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/msg/lv_msg.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/msg/lv_msg.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/snapshot/lv_snapshot.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/others/snapshot/lv_snapshot.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/themes/basic/lv_theme_basic.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/themes/basic/lv_theme_basic.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/themes/default/lv_theme_default.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/themes/default/lv_theme_default.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/themes/lv_themes.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/themes/mono/lv_theme_mono.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/themes/mono/lv_theme_mono.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/animimg/lv_animimg.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/animimg/lv_animimg.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/calendar/lv_calendar.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/calendar/lv_calendar.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/chart/lv_chart.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/chart/lv_chart.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/keyboard/lv_keyboard.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/keyboard/lv_keyboard.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/led/lv_led.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/led/lv_led.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/list/lv_list.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/list/lv_list.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/lv_widgets.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/menu/lv_menu.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/menu/lv_menu.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/meter/lv_meter.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/meter/lv_meter.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/msgbox/lv_msgbox.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/msgbox/lv_msgbox.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/span/lv_span.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/span/lv_span.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/spinbox/lv_spinbox.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/spinbox/lv_spinbox.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/spinner/lv_spinner.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/spinner/lv_spinner.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/tabview/lv_tabview.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/tabview/lv_tabview.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/tileview/lv_tileview.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/tileview/lv_tileview.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/win/lv_win.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/extra/widgets/win/lv_win.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/korean.ttf">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_fmt_txt.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_fmt_txt.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_loader.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_loader.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_10.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_12.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_12_subpx.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_14.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_16.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_18.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_20.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_22.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_24.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_26.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_28.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_28_compressed.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_30.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_32.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_34.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_36.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_38.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_40.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_42.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_44.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_46.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_48.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_montserrat_8.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_simsun_16_cjk.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_unscii_16.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_font_unscii_8.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/font/lv_symbol_def.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/hal/lv_hal.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/hal/lv_hal.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/hal/lv_hal_disp.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/hal/lv_hal_disp.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/hal/lv_hal_indev.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/hal/lv_hal_indev.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/hal/lv_hal_tick.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/hal/lv_hal_tick.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/lv_api_map.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/lv_conf_internal.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/lv_conf_kconfig.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/lvgl.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_anim.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_anim.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_anim_timeline.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_anim_timeline.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_area.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_area.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_assert.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_async.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_async.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_bidi.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_bidi.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_color.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_color.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_fs.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_fs.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_gc.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_gc.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_ll.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_ll.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_log.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_log.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_lru.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_lru.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_math.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_math.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_mem.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_mem.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_misc.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_printf.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_printf.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_style.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_style.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_style_gen.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_style_gen.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_templ.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_templ.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_timer.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_timer.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_tlsf.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_tlsf.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_txt.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_txt.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_txt_ap.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_txt_ap.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_types.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_utils.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/misc/lv_utils.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_arc.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_arc.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_bar.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_bar.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_btn.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_btn.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_btnmatrix.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_btnmatrix.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_canvas.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_canvas.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_checkbox.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_checkbox.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_dropdown.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_dropdown.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_img.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_img.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_label.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_label.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_line.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_line.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_objx_templ.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_objx_templ.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_roller.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_roller.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_slider.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_slider.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_switch.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_switch.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_table.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_table.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_textarea.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_textarea.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl/src/widgets/lv_widgets.mk">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl_app/lvgl_app.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl_app/lvgl_app.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl_font_custom/lv_font_heiti_14.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl_font_custom/lv_font_heiti_18.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/lvgl_font_custom/lv_font_heiti_26.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/porting/lv_port_disp.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/porting/lv_port_disp.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/porting/lv_port_fs_template.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/porting/lv_port_fs_template.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/porting/lv_port_indev_template.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/GUI/porting/lv_port_indev_template.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/croutine.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/event_groups.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/FreeRTOS.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/StackMacros.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/atomic.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/croutine.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/deprecated_definitions.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/event_groups.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/list.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/message_buffer.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/mpu_prototypes.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/mpu_wrappers.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/portable.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/projdefs.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/queue.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/semphr.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/stack_macros.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/stdint.readme">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/stream_buffer.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/task.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/include/timers.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/list.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/portable/GCC/ARM_CM3/port.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/portable/GCC/ARM_CM3/portmacro.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/portable/MemMang/heap_4.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/queue.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/stream_buffer.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/tasks.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/Middlewares/timers.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/STM32F103VETx_FLASH.ld">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User/FreeRTOSConfig.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User/app.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User/app.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User/app_flash.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User/app_flash.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User/app_it.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User/app_it.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User/app_task.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User/app_task.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User/mb_task.c">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/User/user_config.h">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/startup/startup_stm32f103xe.s">
+			<Option target="FressRTOS.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Pro/FreeRTOSTest/FressRTOS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

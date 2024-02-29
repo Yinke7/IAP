@@ -1,0 +1,3 @@
+D:/Clion_Pro/RTOS/BootLoader/cmake-build-debug/CMakeFiles/BootLoader.elf.dir
+D:/Clion_Pro/RTOS/BootLoader/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Clion_Pro/RTOS/BootLoader/cmake-build-debug/CMakeFiles/rebuild_cache.dir

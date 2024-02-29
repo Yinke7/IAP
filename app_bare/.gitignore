@@ -1,0 +1,3 @@
+.idea
+cmake-build-debug/CMakeFiles/FreeRTOS.elf.dir
+cmake-build-release/CMakeFiles/FreeRTOS.elf.dir
